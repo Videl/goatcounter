@@ -1,0 +1,149 @@
+schema = 3
+
+[mod]
+  [mod."code.soquee.net/otp"]
+    version = "v0.0.4"
+    hash = "sha256-aokziQs5USZv2OnKKmuw8pvQmt8WI6DleNNzUbNZdLw="
+  [mod."github.com/BurntSushi/toml"]
+    version = "v1.3.2"
+    hash = "sha256-FIwyH67KryRWI9Bk4R8s1zFP0IgKR4L66wNQJYQZLeg="
+  [mod."github.com/PuerkitoBio/goquery"]
+    version = "v1.8.1"
+    hash = "sha256-z2RaB8PVPEzSJdMUfkfNjT616yXWTjW2gkhNOh989ZU="
+  [mod."github.com/andybalholm/cascadia"]
+    version = "v1.3.1"
+    hash = "sha256-M0u22DXSeXUaYtl1KoW1qWL46niFpycFkraCEQ/luYA="
+  [mod."github.com/bmatcuk/doublestar/v4"]
+    version = "v4.6.1"
+    hash = "sha256-XUyXY1qM9u2WrELufllmDDvgCrw28gDhzAqRIX3aLhc="
+  [mod."github.com/boombuler/barcode"]
+    version = "v1.0.1"
+    hash = "sha256-mdptFdhAM2+xm8RBOuViCi/l5qtoIO3fdT+rPuC7nmw="
+  [mod."github.com/fsnotify/fsnotify"]
+    version = "v1.6.0"
+    hash = "sha256-DQesOCweQPEwmAn6s7DCP/Dwy8IypC+osbpfsvpkdP0="
+  [mod."github.com/go-chi/chi/v5"]
+    version = "v5.0.10"
+    hash = "sha256-HBYdF9Sy9CJ0PsiyczfxNvXrFK1Uh0QyBhcnoReoqYY="
+  [mod."github.com/google/uuid"]
+    version = "v1.4.0"
+    hash = "sha256-FU0gzLmS48Ik9T+quGg5z/7ESGMPSXM3SY+rdJtG+5w="
+  [mod."github.com/gorilla/websocket"]
+    version = "v1.5.1"
+    hash = "sha256-eHZ/U+eeE5tSgWc1jEDuBwtTRbXKP9fqP9zfW4Zw8T0="
+  [mod."github.com/lib/pq"]
+    version = "v1.10.9"
+    hash = "sha256-Gl6dLtL+yk6UrTTWfas43aM4lP/pNa2l7+ITXnjQyKs="
+  [mod."github.com/mattn/go-runewidth"]
+    version = "v0.0.13"
+    hash = "sha256-93AwJFA8B2pwNJAPe64yN0c/CwkJNGFDWFe/HpzDVuk="
+  [mod."github.com/mattn/go-sqlite3"]
+    version = "v1.14.18"
+    hash = "sha256-9k12CRyFt7kzVUaZnlGmttOG/egc91nggUuMfmfrt78="
+  [mod."github.com/monoculum/formam/v3"]
+    version = "v3.6.1-0.20221106124510-6a93f49ac1f8"
+    hash = "sha256-b/jADzzEorYC+iyg/pf8XYi38S5S2JdGSuVcqHWgZec="
+  [mod."github.com/oschwald/geoip2-golang"]
+    version = "v1.4.1-0.20220825052315-37df63691c60"
+    hash = "sha256-E+cI9cL+iEj3L/br8io4UhB3a6NkwY0XckzVEaMZWK0="
+    replaced = "github.com/arp242/geoip2-golang"
+  [mod."github.com/oschwald/maxminddb-golang"]
+    version = "v1.8.1-0.20221021031716-eb1bbbb3fc5d"
+    hash = "sha256-7zaVXcXgm06uWZmUtgFqW3m6HJksr2Gw+UKn692PP3Q="
+    replaced = "github.com/arp242/maxminddb-golang"
+  [mod."github.com/rivo/uniseg"]
+    version = "v0.2.0"
+    hash = "sha256-GLj0jiGrT03Ept4V6FXCN1yeZ/b6PpS3MEXK6rYQ8Eg="
+  [mod."github.com/russross/blackfriday/v2"]
+    version = "v2.1.0"
+    hash = "sha256-R+84l1si8az5yDqd5CYcFrTyNZ1eSYlpXKq6nFt4OTQ="
+  [mod."github.com/teamwork/reload"]
+    version = "v1.4.2"
+    hash = "sha256-0s54fv+GUl2RN58L5VYw5cTIJwCdYNC3l30nluvFciA="
+  [mod."golang.org/x/crypto"]
+    version = "v0.16.0"
+    hash = "sha256-DgSVOnXRK8GF01p5rLtq4qPBcglwEoOk8qhW2EGfJfA="
+  [mod."golang.org/x/image"]
+    version = "v0.14.0"
+    hash = "sha256-DcyH0LkgWvrSGB2XK3V0Ufu2pgYI2ULIunxWL6V1rs4="
+  [mod."golang.org/x/mod"]
+    version = "v0.11.0"
+    hash = "sha256-mSiFXtYlketLJEHmaxUHYzkXoR9M7nJPDSbNiBYAyNE="
+  [mod."golang.org/x/net"]
+    version = "v0.19.0"
+    hash = "sha256-3M5rKEvJx4cO/q+06cGjR5sxF5JpnUWY0+fQttrWdT4="
+  [mod."golang.org/x/sync"]
+    version = "v0.5.0"
+    hash = "sha256-EAKeODSsct5HhXPmpWJfulKSCkuUu6kkDttnjyZMNcI="
+  [mod."golang.org/x/sys"]
+    version = "v0.15.0"
+    hash = "sha256-n7TlABF6179RzGq3gctPDKDPRtDfnwPdjNCMm8ps2KY="
+  [mod."golang.org/x/term"]
+    version = "v0.15.0"
+    hash = "sha256-rsvtsE7sKmBwtR+mhJ8iUq93ZT8fV2LU+Pd69sh2es8="
+  [mod."golang.org/x/text"]
+    version = "v0.14.0"
+    hash = "sha256-yh3B0tom1RfzQBf1RNmfdNWF1PtiqxV41jW1GVS6JAg="
+  [mod."golang.org/x/tools"]
+    version = "v0.6.0"
+    hash = "sha256-J0q+C3WDTK9yyHX90FV6qr6n9H07YglYg1p4H3MqyH4="
+  [mod."zgo.at/blackmail"]
+    version = "v0.0.0-20221021025740-b3fdfc32a1aa"
+    hash = "sha256-CMg0CKAQ54DRnWJBfel/DLMVrhEv717vO4ld+H9k0bk="
+  [mod."zgo.at/errors"]
+    version = "v1.2.0"
+    hash = "sha256-c7cNweVZN+oLpOVDu7lMrxxCQ4eFXf4SUx/TeG3P3DM="
+  [mod."zgo.at/follow"]
+    version = "v0.0.0-20221021024812-dd647d64b369"
+    hash = "sha256-mA5E91aKBDijmbAgMh/cTqd/RR2wqjjmyrv1qCPUdT4="
+  [mod."zgo.at/gadget"]
+    version = "v1.0.0"
+    hash = "sha256-oSv7GA7AFyg0sWi/EtSGu6jf65m4ALurThunT+kLJdw="
+  [mod."zgo.at/guru"]
+    version = "v1.1.0"
+    hash = "sha256-McjAd4N6gWSyLo3ExnfQfoG572Ohc4MEKY7Ezg96kuI="
+  [mod."zgo.at/isbot"]
+    version = "v1.0.0"
+    hash = "sha256-wQR8erQqnXULcmJprKS9dTcBVV4BKTswuH8uz8In88U="
+  [mod."zgo.at/json"]
+    version = "v0.0.0-20221020004326-fe4f75bb278e"
+    hash = "sha256-fqyjGbXnLPIBch2ZCtXeq44EC7eSKMItw81LwMMf67E="
+  [mod."zgo.at/termtext"]
+    version = "v1.1.0"
+    hash = "sha256-Q/vN1jRN+9Yes6LH1nstey8dIOyQngm69ER67Nsq3xU="
+  [mod."zgo.at/tz"]
+    version = "v0.0.0-20211017223207-006eae99adf6"
+    hash = "sha256-OEPKcJap9c+/64Wbf5weffyZF1pesfRJ94wx1ZWyAVE="
+  [mod."zgo.at/z18n"]
+    version = "v0.0.0-20221020022658-4ea64eeb51d9"
+    hash = "sha256-MBJywmKNRdAyPKsstJoXoH9LvOt1nptEekaj1omIu/8="
+  [mod."zgo.at/zcache"]
+    version = "v1.2.0"
+    hash = "sha256-2ODx7nUQBVSdApQT30eHZxUDoQHzHob/PbKpPXIo4IA="
+  [mod."zgo.at/zcache/v2"]
+    version = "v2.1.0"
+    hash = "sha256-ub38ue+qSMDB8wPd6+6+hwbFHxJ0H466dwK2a6qhtrA="
+  [mod."zgo.at/zdb"]
+    version = "v0.0.0-20230818141326-8a736d26f78a"
+    hash = "sha256-Nww56S8mq6LIcZ2vvTqygHjQxmu2Kz9g83NfPuxNDGs="
+  [mod."zgo.at/zhttp"]
+    version = "v0.0.0-20231210062529-b3f6ad8384d3"
+    hash = "sha256-cNFs9feIFgRFKjBaaB0Iia0XKhxcvYf6Iuve5GvfOZI="
+  [mod."zgo.at/zli"]
+    version = "v0.0.0-20231124215953-c6675b0b020a"
+    hash = "sha256-SWHI1eddwopuINhhNGM9Sb2INB3+A9/uS/atI7rKazU="
+  [mod."zgo.at/zlog"]
+    version = "v0.0.0-20211017235224-dd4772ddf860"
+    hash = "sha256-hr/JoH7/SpMst0oXsc3om+Y/81a7723TvmegGXg4tPE="
+  [mod."zgo.at/zprof"]
+    version = "v0.0.0-20211217104121-c3c12596d8f0"
+    hash = "sha256-EM6QFWyq/QySbSq5l37BWneVaol1+NyPsxUefo6dZdI="
+  [mod."zgo.at/zstd"]
+    version = "v0.0.0-20231206020926-f20b0b1e56be"
+    hash = "sha256-dKl52cWjKqRuOaYT+GtO319qxg4dhnXStEA0oDpY8w4="
+  [mod."zgo.at/ztpl"]
+    version = "v0.0.0-20231210165448-05891fb9a4df"
+    hash = "sha256-xWXR9AATYx44ATRNzY2101A4PPrMsVKoJvtYcr3Puno="
+  [mod."zgo.at/zvalidate"]
+    version = "v0.0.0-20221021025449-cb54fa8efade"
+    hash = "sha256-fBljA16ojWsXZRBfb2mP2bM9xANq3H7xzFFKdJ7Xuyg="
