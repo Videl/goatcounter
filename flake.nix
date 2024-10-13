@@ -17,8 +17,10 @@
       let
         pkgs = import nixpkgs { inherit system; };
       in
+      rec
       {
-        packages.default = pkgs.buildGoModule {
+        packages.default = self.packages.goatcounter;
+        packages.goatcounter = pkgs.buildGoModule {
           pname = "goatcounter";
           version = "0.1.0";
           src = ./.;
@@ -47,6 +49,42 @@
           #     'replace zgo.at/bgrun => ./bgrun' \
           #     'replace zgo.at/bgrun => '"$src"'/bgrun'
           # '';
+        };
+
+        packages.container = pkgs.dockerTools.buildImage {
+          name = "goatcounter";
+          tag = "flake";
+          created = "now";
+          config = {
+            ExposedPorts = {
+              "80/tcp" = { };
+              "443/tcp" = { };
+            };
+            # contents = [
+            #   ./assets
+            # ];
+
+            # pathsToLink = [ "/bin" ];
+            # paths = [
+            #   pkgs.coreutils
+            #   pkgs.bash
+            #   pkgs.emacs
+            #   pkgs.vim
+            #   pkgs.nano
+            # ];
+
+            copyToRoot =
+              packages.goatcounter;
+            # pkgs.buildEnv
+            #   {
+            #     name = "image-root";
+            #     paths = [ packages.default ];
+            #     pathsToLink = [ "/bin" ];
+            #   };
+            Cmd = [ "${packages.goatcounter}/bin/goatcounter" ];
+            Entrypoint = [ "${packages.goatcounter}/bin/goatcounter" ];
+            WorkingDir = "${packages.goatcounter}/";
+          };
         };
 
         devShells.default = pkgs.mkShell {
